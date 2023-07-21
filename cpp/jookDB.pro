@@ -31,7 +31,7 @@ CONFIG += c++17
 CONFIG(release, debug|release) {
 }
 
-VERSION = 5.22.0
+VERSION = 5.23.0
 DEFINES += VERSION_STR=\\\"$$VERSION\\\"
 
 QMAKE_TARGET_PRODUCT = jookdb
